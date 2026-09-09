@@ -16,7 +16,7 @@ enum class TokenType {
 
 struct Token {
     TokenType type;
-    double value;
+    int value;
     std::size_t start;
     std::size_t end;
 };
