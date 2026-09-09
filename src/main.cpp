@@ -1,7 +1,9 @@
-//
-// Created by Admin on 04.09.2026.
-//
+#include "../index/Repl.h"
 
 int main() {
+    Repl repl;
+
+    repl.run();
+
     return 0;
 }
